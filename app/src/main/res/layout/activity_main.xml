@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:padding="10dp"
     tools:context=".MainActivity">
 
 
@@ -25,24 +26,29 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="아이디"/>
+
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="이메일 양식으로 입력하십시오"
         android:inputType="textEmailAddress"/>
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="비밀번호"/>
+
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="textPassword"
         android:hint="8글자 이상으로 입력하십시오"/>
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="추천인"/>
+
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
