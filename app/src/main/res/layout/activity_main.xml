@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="10dp"
+    android:background="#FFE500"
     tools:context=".MainActivity">
 
 
@@ -75,7 +76,8 @@
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="unknown"/>
+            android:text="unknown"
+            android:enabled="false"/>
 
     </RadioGroup>
 
@@ -85,6 +87,7 @@
         android:layout_height="wrap_content"
         android:text="이용약관에 동의합니다"/>
     <CheckBox
+        android:visibility="gone"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="개인정보 이용방안에 동의합니다"/>
